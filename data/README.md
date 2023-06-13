@@ -65,7 +65,6 @@ The structure of the data folder is as follows. This folder structure is necessa
 <pre>
 data/
 ├── cenus/
-├── README.md
 ├── strava_and_counter_data_updated/
 │   └── data_01-2020_to_11-2022/
 └── survey/
