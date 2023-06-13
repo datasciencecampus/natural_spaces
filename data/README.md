@@ -48,7 +48,7 @@ The habitat classification map  uses a machine learning approach to image classi
 
 # People and Nature Survey Data
 
-[The People and Nature Survey](https://www.gov.uk/government/collections/people-and-nature-survey-for-england)for England gathers evidence and trend data through an online survey relating to people’s enjoyment, access, understanding of and attitudes to the natural environment, and it’s contributions to wellbeing. Specifically, we will find mean dog ownership.
+[The People and Nature Survey](https://www.gov.uk/government/collections/people-and-nature-survey-for-england) for England gathers evidence and trend data through an online survey relating to people’s enjoyment, access, understanding of and attitudes to the natural environment, and it’s contributions to wellbeing. Specifically, we will find mean dog ownership.
 
 * [People and Nature Survey for England - Year 2 - Quarter 1 to Quarter 4 data](https://www.gov.uk/government/statistics/the-people-and-nature-survey-for-england-year-2-annual-report-data-and-publications-april-2021-march-2022-official-statistics-main-findings)
 
