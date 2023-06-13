@@ -13,7 +13,7 @@ Introducing an inexpensive and widely applicable data science method for monitor
 ## Requirements
 _________________________________________________________________
 
-You can find a list of the direct dependencies, with versions, in the pyproject.toml file.
+You can find a list of the direct dependencies, with versions, in the requirements.txt file
 
 During development, the project ran on `Python XXXX` with the following versions for the main dependencies:
 
