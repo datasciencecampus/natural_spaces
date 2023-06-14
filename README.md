@@ -13,17 +13,18 @@ Introducing an inexpensive and widely applicable data science method for monitor
 ## Requirements
 _________________________________________________________________
 
-You can find a list of the direct dependencies, with versions, in the requirements.txt file
+The project was run on Python version 3.10.9. You can find a list of the direct dependencies, with versions, in the requirements.txt file.
+Run the below commands in command line to recreate the environment needed to run the code.
 
-During development, the project ran on `Python XXXX` with the following versions for the main dependencies:
+```shell
+python3 -m venv env
+source env/bin/activate
 
-| Library | Version |
-| ------- | ------- |
-| `numpy`           | 1.23.2 |
-| `pandas`          | 1.5.3 |
-| `scikit-learn`    | 1.2.2 |
-| `statsmodels`     | 0.14.0 |
-| `factor-analyzer`     | 0.4.1 |
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+
+```
+
 
 
 
