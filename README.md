@@ -30,7 +30,7 @@ python -m pip install -r requirements.txt
 
 ## Usage
 _________________________________________________________________
-
+Confirm that you have access to the data sets required, details of the data sets can be found in `data` > `README.md`
 ## Limitations
 
 Currently the project is limited by the avilablilty of automatic people counter data which is used as the ground truth training data for the model. With more training data available an experiemental statistic that could produce reliable estimates for engagement with nature across a wider area of England could be produced.  In the next phase, we plan to work with a range of partners that maintain and can share people counter data to address this limitation.
