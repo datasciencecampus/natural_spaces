@@ -44,4 +44,4 @@ _________________________________________________________________
 
 This project was generated from a collaboration with [The Department for Environment, Food and Rural Affairs](https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs) and [The Data Science Campus](https://datasciencecampus.ons.gov.uk/) at [The Office for National Statistics](https://www.ons.gov.uk/), [Strava Metro] (https://metro.strava.com), [Natural England] (https://www.gov.uk/government/organisations/natural-england) and [The North Downs Way] () 
 
-Developers of this project include Kaveh Jahanshahi (ONS),  Cahitanya Joshi (ONS), Tim Ashelford (DEFRA), Jamie Elliott (ONS) and James Kenyon (DEFRA). 
+Developers of this project include Kaveh Jahanshahi (ONS),  Chaitanya Joshi (ONS), Tim Ashelford (DEFRA), Jamie Elliott (ONS) and James Kenyon (DEFRA). 
