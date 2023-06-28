@@ -3,7 +3,7 @@
 Estimating use of natural spaces based on People Counter data, Strava Metro data, Census data, weather data, Open Street Map data, Green Infrstructure data
 
 ________________________________________________________________
-The goal of this project is to measure peopple's engagement with the natural environment. This information supports understanding of progress against Defra’s Environmental Improvement Plan 2023 which sets out key targets and commitments on access and engagement with nature, including a commitment that everyone should live within 15 minutes’ walk of a green or blue space.
+The goal of this project is to measure people's engagement with the natural environment. This information supports understanding of progress against Defra’s Environmental Improvement Plan 2023 which sets out key targets and commitments on access and engagement with nature, including a commitment that everyone should live within 15 minutes’ walk of a green or blue space.
 
 Automated people counters are used frequently to monitor pedestrian and cycling activity with a good temporal resolution. However, people counters are expensive to install and maintain and for this reason are only installed in a few strategic locations. 
 
@@ -26,11 +26,13 @@ python -m pip install -r requirements.txt
 ```
 
 
-
-
 ## Usage
 _________________________________________________________________
-Confirm that you have access to the data sets required, details of the data sets can be found in `data` > `README.md`
+Confirm that you have access to the data sets required, details of the data sets and steps to download the data can be found in `data` > `README.md`
+
+Once all data sets are present run python notebooks 1 to 10 found in the `notebooks` folder. 
+
+
 ## Limitations
 
 Currently the project is limited by the avilablilty of automatic people counter data which is used as the ground truth training data for the model. With more training data available an experiemental statistic that could produce reliable estimates for engagement with nature across a wider area of England could be produced.  In the next phase, we plan to work with a range of partners that maintain and can share people counter data to address this limitation.
