@@ -32,6 +32,16 @@ Confirm that you have access to the data sets required, details of the data sets
 
 Once all data sets are present run python notebooks 1 to 10 found in the `notebooks` folder. 
 
+Steps:
+`1.Prepare_buffer_zones_counter_sites.ipynb` This notebook produces a table of point geometries for all the people monitoring sites for which we have access to. A 5km buffer zone is created around each point, this will later be used to for building our dataset . Currently we have access to training data for Natural England and North Downs Way sites only.
+
+`2.Prepare_Census_features.ipynb` This notebook retrieves relevant features from the 2011 Censys at Output Area level. The 5km buffer zones surrounding each people counter location are then intersected with census data to create a data set relevant to each location. Finally, these data sets are compiled into a single data set containing all census features.
+
+`3.Green_blue_infrastructure_features.ipynb` Collect green and blue infrasturtcure features including: Accessible woodlands, Public Right of Way and Inland Waterside. Intersect these features with buffer geometries and collate into a single dataset.
+
+`4.Land_classification_fatures.ipynb` This notebook uses the Urban/Rural land classifications taken from the census in `2.Prepare_Census_features.ipynb`. For each people counter location the sum of the area in the buffer zone that corresponds to each Urban/rural classification is taken. Based on these area values density based clustering is performed to provide a label for each buffer zone and corresponding people counter location. 
+
+
 
 ## Limitations
 
