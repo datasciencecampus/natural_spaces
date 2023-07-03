@@ -35,7 +35,7 @@ Once all data sets are present run python notebooks 1 to 10 found in the `notebo
 
 ## Limitations
 
-Currently the project is limited by the avilablilty of automatic people counter data which is used as the ground truth training data for the model. With more training data available an experiemental statistic that could produce reliable estimates for engagement with nature across a wider area of England could be produced.  In the next phase, we plan to work with a range of partners that maintain and can share people counter data to address this limitation.
+Currently the project is limited by the availablilty of automatic people counter data which is used as the ground truth training data for the model. With more training data available an experiemental statistic that could produce reliable estimates for engagement with nature across a wider area of England could be produced.  In the next phase, we plan to work with a range of partners that maintain and can share people counter data to address this limitation.
 
 ## License
 _________________________________________________________________
