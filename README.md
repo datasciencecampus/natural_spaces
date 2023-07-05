@@ -9,6 +9,8 @@ Automated people counters are used frequently to monitor pedestrian and cycling 
 
 Introducing an inexpensive and widely applicable data science method for monitoring visitor numbers would considerably enhance Defra’s indicator for tracking nature engagement. This model combines aggregated and anonymised data from Strava Metro with carefully selected open or free-to-access spatial datasets such as automated people counters and indicators of local environmental and social conditions. These results are experimental, in order to produce more robust results to inform outcomes we need to incorporate a larger set of training data and datasets that cover the residential location of visitors. 
 
+A brief introduction to the methodology used and interpretation of results can be found in [this blog post](https://datasciencecampus.ons.gov.uk/using-open-source-data-to-measure-our-engagement-with-the-natural-environment/)
+
 
 ## Requirements
 _________________________________________________________________
