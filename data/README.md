@@ -4,11 +4,14 @@ This document explains how to retrieve the raw data used in the project and the 
 
 
 
-# Counter Location Data
+# Natural England Counter Data
+Downloading Natural England  data can be completed by running the `notebooks/download_counter_data.ipynb`. Please note an API key will be required.
 
+# North Downs Way Counter Data
+Access to North Downs Way counter data was given via a secure Dashboard
 
 # Strava Data
-Downlaoding Strava Metro data can be completed by running the 'download_counter_data.ipynb'. Please note an API key will be required, applications for an API key can be completed [here](https://metro.strava.com).
+Strava Metro data was access through the Strava Metro Dashboard. Applications to access Strava Metro can be completed [here](https://metro.strava.com).
 
 # Census Data
 
