@@ -38,7 +38,7 @@ Steps:
 
 * `1.Prepare_buffer_zones_counter_sites.ipynb` This notebook produces a table of point geometries for all the people monitoring sites for which we have access to. A 5km buffer zone is created around each point, this will later be used to for building our dataset . Currently we have access to training data for Natural England and North Downs Way sites only.
 
-* `2.Prepare_Census_features.ipynb` This notebook retrieves relevant features from the 2011 Censys at Output Area level. The 5km buffer zones surrounding each people counter location are then intersected with census data to create a data set relevant to each location. Finally, these data sets are compiled into a single data set containing all census features.
+* `2.Prepare_Census_features.ipynb` This notebook retrieves relevant features from the 2011 Census at Output Area level. The 5km buffer zones surrounding each people counter location are then intersected with census data to create a data set relevant to each location. Finally, these data sets are compiled into a single data set containing all census features.
 
 * `3.Green_blue_infrastructure_features.ipynb` Collect green and blue infrasturtcure features including: Accessible woodlands, Public Right of Way and Inland Waterside. Intersect these features with buffer geometries and collate into a single dataset.
 
