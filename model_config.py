@@ -200,19 +200,11 @@ for dataset in datasets:
     if os.path.exists(dataset)== False:
         print(f"The {dataset} dataset does not exist. Please check the data set has been downloaded and saved to the correct directory.")
 
+# List of Training sites with similar sites in potential data provider dataset. Please note, the list of sites has been omitted due to data privacy.
+trng_sites= points_geom.loc[points_geom['counter'].isin([])]
 
-
-# CRT sites similar to locations in the training data
-sim_sites=['Foxton_Locks', 's163_Leighton_trs003', 'Eshton_Road',
-       'Hempsted_Lane', 'Diglis_Dock_Road', 'Stafford', 'Selby',
-       'Bath_Road', 'Nottingham_Trent_Lock', 'S145_The_Locks_Car_Park',
-       'The_Locks', 'Northgate_Street', 'Rugeley_Towpath',
-       'Burton_on_Trent', 'Rathwell_Close', 'Litherland',
-       'St_Bernards_Drive', 'Anderton_Boat_Lift', 'Banbury_Towpath',
-       'Rochdale', 'Saul_Junction_-_Junction_Bridge',
-       'Gloucester_&_Sharpness_Canal', 'Intl_White_Water_Cntr',
-       'Riverside', 'Tunnel_Street', 'Canal_Side', 'UofW_Science_Park',
-       'S143_science_park_path_to_towpath_crt']
+#  List of Potential sites similar to locations in the training data. Please note, the list of sites has been omitted due to data privacy.
+sim_sites=[]
 
 #Reduced number of habitat types
 # from https://naturalengland-defra.opendata.arcgis.com/datasets/Defra::living-england-habitat-map-phase-4/about
