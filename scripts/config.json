@@ -1,0 +1,22 @@
+{
+    "ne": {
+        "x_y_path": "./data/counter_locations/ne_locations.gpkg",
+        "pc_path": "./data/counter_data/natural_england_national_trails_people_counters_data_2020-01_to_2023-09.csv",
+        "strava_path": "./data/strava_data/natural-england-strava-single-edge/",
+        "cut_off_year": 2020
+    },
+
+    "ndw": {
+        "x_y_path": "./data/counter_locations/ndw_locations.gpkg",
+        "pc_path": "./data/counter_data/north_downs_way_people_counters_data_2020-01_to_2023-09.csv",
+        "strava_path": "'./data/strava_data/north-downs-way-strava-single-edge/",
+        "cut_off_year": 2021
+    },
+
+    "thames": {
+        "x_y_path":  "./data/counter_locations/Thames_locations.gpkg",
+        "pc_path": "'./data/counter_data/thames_reformatted.csv'",
+        "strava_path": "./data/strava_data/thames-strava-single-edge/",
+        "cut_off_year": 2020
+    }
+}
